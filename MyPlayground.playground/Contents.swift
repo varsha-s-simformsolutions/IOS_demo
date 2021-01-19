@@ -375,3 +375,45 @@ for codeUnit in dogString.utf8 {
 }
 print("")
 
+
+var str = "Hello World"
+print(str)
+
+//Variables
+
+var typeInt = 10
+print(typeInt)
+let exclamationMark1: Character = "!"
+print(exclamationMark1)
+let typeString: String = "Swift"
+print(typeString)
+var typeFloat: Float = 10.01
+print(typeFloat)
+var typeDouble: Double = 105658464
+print(typeDouble)
+
+//Addition of 5
+var add = 10
+var res1 = add + 5
+print(res1)
+
+let rate = 15
+var amount = 10000
+var time = 2
+var si = amount * (rate)/100 * time
+print(si)
+
+
+var typeInt1 = 20
+var typeFloat1 = 10.0
+var addition = Double(typeInt1) + typeFloat1;
+print(addition)
+var sub = Double(typeInt1) - typeFloat1;
+print(sub)
+var multi = Double(typeInt1) * typeFloat1;
+print(multi)
+var division = Double(typeInt1) / typeFloat1;
+print(division)
+
+
+
